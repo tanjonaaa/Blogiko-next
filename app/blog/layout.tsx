@@ -10,7 +10,7 @@ export default function BlogLayout({
       <aside>
         <BlogList />
       </aside>
-      <main>{children}</main>
+      <section>{children}</section>
     </>
   );
 }
